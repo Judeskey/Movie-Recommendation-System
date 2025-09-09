@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+implicit
+fastapi
+uvicorn[standard]
+pydantic>=1.10,<3
+# Optional ANN (not installed on Windows by default):
+faiss-cpu; platform_system != "Windows"

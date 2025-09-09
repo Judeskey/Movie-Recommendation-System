@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/*.npz
+data/batch/
+data/events/
+models/*.npz
+models/id_mappings.json
+service/faiss_index.bin
